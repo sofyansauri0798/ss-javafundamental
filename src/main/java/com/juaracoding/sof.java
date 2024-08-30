@@ -13,4 +13,8 @@ Version 1.0
 */
 
 public class sof {
+    public static void main (String[]args){
+        System.out.print("hallo");
+    }
+
 }
