@@ -33,6 +33,14 @@
             <version>1.0.2</version>
         </dependency>
 
+
+        <!-- Baru dimasukkan-->
+        <dependency>
+            <groupId>org.xerial</groupId>
+            <artifactId>sqlite-jdbc</artifactId>
+            <version>3.41.2.2</version>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -76,13 +84,8 @@
         </plugins>
     </build>
 
-    <!-- Baru dimasukkan
-    <dependency>
-        <groupId>org.xerial</groupId>
-        <artifactId>sqlite-jdbc</artifactId>
-        <version>3.36.0.3</version>
-    </dependency>
-    -->
+
+
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
