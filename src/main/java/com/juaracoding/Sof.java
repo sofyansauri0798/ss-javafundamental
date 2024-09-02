@@ -46,8 +46,8 @@ public void  tambahData(String nama, String alamat,String noHp){
         Data newData =new Data(nama,alamat,noHp);
         data.add(newData);
         System.out.println("data berhasil dimasukkan ! : )\n");
-
 }
+
 public void tampikanData(){
         if(data.isEmpty()){
             System.out.println("tidak ada data sayang ... !!\n \n");
@@ -55,7 +55,7 @@ public void tampikanData(){
             for (Data d : data){
                 System.out.println("Nama : " +d.getNama());
                 System.out.println("Alamat : " +d.getAlamat());
-                System.out.println("Nomer Hp : " +d.getNoHp());
+                System.out.println("Nomer Hp : " +d.getNoHp()+"\n");
                 System.out.println();
             }
         }
@@ -75,7 +75,7 @@ public void tampikanData(){
 
             switch (pilihan){
                 case 1:
-                    System.out.println("Masukkan Nama :");
+                    System.out.println("\n"+"Masukkan Nama :");
                     String nama =scanner.nextLine();
                     System.out.println("Masukkan Alamat :");
                     String alamat =scanner.nextLine();
